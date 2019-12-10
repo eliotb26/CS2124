@@ -1,0 +1,8 @@
+﻿  Practise.cpp
+  rec03.cpp
+C:\Users\eliot\source\repos\rec03\rec03.cpp(151,6): warning C4101:  'accountNum': unreferenced local variable
+C:\Users\eliot\source\repos\rec03\rec03.cpp(207,13): error C2086:  'std::string name': redefinition
+C:\Users\eliot\source\repos\rec03\rec03.cpp(176): message :  see declaration of 'name'
+C:\Users\eliot\source\repos\rec03\rec03.cpp(208,12): error C2086:  'int number': redefinition
+  Generating Code...
+C:\Users\eliot\source\repos\rec03\rec03.cpp(177): message :  see declaration of 'number'

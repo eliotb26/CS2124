@@ -1,0 +1,5 @@
+﻿  rec04.cpp
+C:\Users\eliot\source\repos\Rec04\rec04.cpp(305,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\eliot\source\repos\Rec04\rec04.cpp(277,10): warning C4101: 'cmplx': unreferenced local variable
+C:\Users\eliot\source\repos\Rec04\rec04.cpp(351): warning C4172: returning address of local variable or temporary: roomateName
+  Rec04.vcxproj -> C:\Users\eliot\source\repos\Rec04\Debug\Rec04.exe

@@ -1,0 +1,4 @@
+﻿  rec13.cpp
+C:\Users\eliot\source\repos\rec13\rec13.cpp(76,12): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Users\eliot\source\repos\rec13\rec13.cpp(377,7): warning C4101: 'wordThere': unreferenced local variable
+  rec13.vcxproj -> C:\Users\eliot\source\repos\rec13\Debug\rec13.exe

@@ -1,0 +1,12 @@
+﻿  lab12.cpp
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(269,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(341,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(344,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(346,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(153): warning C4715: 'List::back': not all control paths return a value
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(135): warning C4715: 'List::front': not all control paths return a value
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(147): warning C4715: 'List::back': not all control paths return a value
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(141): warning C4715: 'List::front': not all control paths return a value
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(207): warning C4715: 'List::operator[]': not all control paths return a value
+C:\Users\eliot\source\repos\Lab12\lab12.cpp(217): warning C4715: 'List::operator[]': not all control paths return a value
+  Lab12.vcxproj -> C:\Users\eliot\source\repos\Lab12\Debug\Lab12.exe

@@ -1,0 +1,4 @@
+﻿  hw04.cpp
+C:\Users\eliot\source\repos\HW04\hw04.cpp(106,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\HW04\hw04.cpp(107,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  HW04.vcxproj -> C:\Users\eliot\source\repos\HW04\Debug\HW04.exe

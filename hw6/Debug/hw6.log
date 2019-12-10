@@ -1,0 +1,7 @@
+﻿  Noble.cpp
+C:\Users\eliot\source\repos\hw6\Noble.cpp(61,29): warning C4018: '<': signed/unsigned mismatch
+  Warrior.cpp
+  main.cpp
+  Generating Code...
+C:\Users\eliot\source\repos\hw6\Noble.cpp(62,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  hw6.vcxproj -> C:\Users\eliot\source\repos\hw6\Debug\hw6.exe

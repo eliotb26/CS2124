@@ -1,0 +1,4 @@
+﻿  HW5Test.cpp
+C:\Users\eliot\source\repos\TestHW5\HW5Test.cpp(114,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\source\repos\TestHW5\HW5Test.cpp(115,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  TestHW5.vcxproj -> C:\Users\eliot\source\repos\TestHW5\Debug\TestHW5.exe

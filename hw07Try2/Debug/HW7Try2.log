@@ -1,0 +1,8 @@
+﻿  hw7.cpp
+  Noble.cpp
+C:\Users\eliot\Desktop\CS2124\HW7Try2\Noble.cpp(107,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eliot\Desktop\CS2124\HW7Try2\Noble.cpp(108,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Protector.cpp
+  Generating Code...
+C:\Users\eliot\Desktop\CS2124\HW7Try2\Noble.cpp(182,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  HW7Try2.vcxproj -> C:\Users\eliot\Desktop\CS2124\HW7Try2\Debug\HW7Try2.exe

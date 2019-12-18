@@ -89,6 +89,74 @@ T multiply(const T& first, const T& sec) {
 	return first * sec;
 }
 
+void throwIfNegativeOne(int val) throw (...) {
+	if (val == -1) {
+		string ErrorMessage ("Negative One");
+		throw ErrorMessage;
+	}
+}
+
+// towers of hanoi
+//   n is the number of disks, start is the spindle that they start
+//   on, target is where thery are being moved to, and spare is the
+//   "unused" spindle.
+void towers(int n, char start, char target, char spare) {
+	if (n == 0) return;
+	towers(n - 1, start, spare, target);
+	cout << "Move disk: " << n << " from spindle: " << start
+		<< " to spindle: " << target << endl;
+	towers(n - 1, spare, target, start);
+}
+
+void bar(int n) {
+	if (n > 200) {
+		// What to do?
+		//throw 42;
+		// throw 3.14159;
+		out_of_range myOOR("bar got passed a value more than 200");
+		throw myOOR;
+	}
+}
+void foo(int n) { bar(n); }
+
+struct Thing { int val; };
+
 int main() {
-	cout << multiply(1, 5);
+	//try {
+	//	foo(300);
+	//}
+	//catch (out_of_range oor) {
+	//	cerr << "Caught out of range specifically " << oor.what() << endl;
+	//}
+	//catch (exception & oor) {
+	//	cerr << "Caught out of range: " << oor.what() << endl;
+	//}
+
+
+
+	//cout << multiply(1, 5) << endl;
+
+	//towers
+	//towers(3, 'A', 'C', 'B');
+
+	Thing** data = new Thing* [100];
+
+	for (size_t ind = 0; ind < 100; ind++) {
+		data[ind] = new Thing();
+		data[ind]->val = ind+1;
+		cout << data[ind]->val << endl;
+	}
+	
+	
+	for (size_t ind = 0; ind < 100; ind++) {
+		data[ind]->val += ind + 1;
+	}
+	for (size_t ind = 0; ind < 100; ind++) {
+		for (size_t ind = 0; ind < 100; ind++) {
+			delete data[ind];
+			data[ind] = nullptr;
+		}
+		delete[] data;
+		data = nullptr;
+	}
 }
